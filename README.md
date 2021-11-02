@@ -25,7 +25,8 @@ git checkout master
 into your document root on your webserver. Make sure the public folder of the project is the document root of your server e.g. /somepath/public where public is the public folder of the Maxticket project.
 
 ## Make a copy of the environment configuration file
-```cp .env.example .env
+```
+cp .env.example .env
 ```
 
 Make sure the following files/folders are writable by the webserver user.
